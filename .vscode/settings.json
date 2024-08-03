@@ -5,14 +5,13 @@
     "copyconfig",
     "copyfiles",
     "Digi",
-    "digibee",
+    "FisheryXchange",
     "filesize",
     "mediafiles",
     "OKHDLSG",
     "payloadcms",
     "precheck",
     "Swiper",
-    "vigneshfixes"
   ],
   "conventionalCommits.scopes": [
     "order"

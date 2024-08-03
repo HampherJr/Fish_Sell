@@ -28,7 +28,7 @@ export default buildConfig({
     user: "users",
     bundler: webpackBundler(),
     meta: {
-      titleSuffix: " - DigiBee",
+      titleSuffix: " - FisheryXchange",
       favicon: "/favicon.ico",
       ogImage: "/thumbnail.jpg",
     },

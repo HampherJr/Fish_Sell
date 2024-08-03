@@ -12,11 +12,11 @@ export function cn(...inputs: ClassValue[]) {
 export function formatPrice(
   price: number | string,
   options: {
-    currency?: "USD" | "INR" | "EUR" | "BDT";
+    currency?: "MWK" | "USD"| "EUR" | "BDT";
     notation?: Intl.NumberFormatOptions["notation"];
   } = {}
 ) {
-  const { currency = "INR", notation = "compact" } = options;
+  const { currency = "MWK", notation = "compact" } = options;
 
   const numericPrice = typeof price === "string" ? parseFloat(price) : price;
 
@@ -44,8 +44,8 @@ export function getValidURLs(product: Product, dir: 'media' | 'product_files'){
 }
 
 export function constructMetadata({
-  title = "DigiBee - the marketplace for digital assets",
-  description = "DigiBee is an open-source marketplace for high-quality digital goods.",
+  title = "FisheryXchange - the marketplace for Fish products",
+  description = "FisheryXchange is an open-source marketplace for high-quality fish products.",
   image = "/thumbnail.png",
   noIndex = false,
 }: {
@@ -71,9 +71,9 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: "@vigneshfixes",
+      creator: "@Hampherjr",
     },
-    metadataBase: new URL("https://digiBee.up.railway.app"),
+    metadataBase: new URL("https://FisheryXchange.up.railway.app"),
     ...(noIndex && {
       robots: {
         index: false,

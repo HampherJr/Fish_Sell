@@ -41,7 +41,7 @@ const ForgotPasswordPage = () => {
     <>
       <div className="flex flex-col items-center space-y-2 text-center grow">
         <div className="relative w-24 h-24">
-          <Image src="/logo.png" fill alt="Digibee Logo" />
+          <Image src="/logo.png" fill alt="FisheryXchange Logo" />
         </div>
         <h1 className="text-2xl font-semibold tracking-tight">
           Reset your account password

@@ -26,7 +26,7 @@ const Navbar = async () => {
               <div className="ml-4 lg:ml-0">
                 <Link href="/">
                   <div className="relative w-12 h-12">
-                    <Image src="/logo.png" fill alt="Digibee Logo" />
+                    <Image src="/logo.png" fill alt="FisheryXchange Logo" />
                   </div>
                 </Link>
               </div>

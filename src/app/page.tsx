@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const perks = [
   {
-    name: "High-quality assets",
+    name: "High-quality Fish",
     Icon: ShieldCheck,
     description:
       "Every asset on our platform is carefully reviewed by our team to ensure best quality.",
@@ -34,11 +34,11 @@ export default function Home() {
         <div className="flex flex-col items-center max-w-3xl py-20 mx-auto text-center">
           <h1 className="text-4xl font-bold tracking-tight text-foreground/80 sm:text-6xl [text-wrap:balance]">
             Your marketplace for high-quality{" "}
-            <span className="text-primary">digital asset</span>.
+            <span className="text-primary">Fish Products</span>.
           </h1>
 
           <p className="mt-4 [text-wrap:balance]">
-            Welcome to DigiBee. Every asset on our platform is carefully
+            Welcome to FisheryXchange. Every Product on our platform is carefully
             reviewed by our team to ensure best quality.
           </p>
 

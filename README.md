@@ -1,10 +1,8 @@
-# DigiBee - A Modern Digital Product Marketplace
-
-![thumbnail](https://github.com/vignesh-gupta/digibee-marketplace/assets/52371759/32f36a2c-e6ba-4485-ae65-59485b058f6b)
+# FisheryXchange - A Modern Digital Product Marketplace
 
 ## Intro
 
-DigiBee is a Full-Stack built with [Next.js](https://nextjs.org/) for frontend and [Payload](https://payloadcms.com/) as backend. It is a modern digital product marketplace where you can sell your digital products like ebooks, courses, templates, etc. It is a fully functional marketplace with a lot of features. 
+FisheryXchange is a Full-Stack built with [Next.js](https://nextjs.org/) for frontend and [Payload](https://payloadcms.com/) as backend. It is a modern fishery marketplace where you can sell your fishery products. It is a fully functional marketplace with a lot of features. 
 
 ## Features
 
@@ -44,12 +42,3 @@ DigiBee is a Full-Stack built with [Next.js](https://nextjs.org/) for frontend a
 - [TypeScript](https://www.typescriptlang.org/) – Static type checker for end-to-end type-safety
 - [Prettier](https://prettier.io/) – Opinionated code formatter for consistent code style
 - [ESLint](https://eslint.org/) – Pluggable linter for Next.js & TypeScript
-
-## Author
-
-- [![@vigneshfixes](https://img.shields.io/badge/vigneshfixes-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/intent/follow?screen_name=vigneshfixes)
-- [![Vignesh Gupta](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://vigneshgupta.vercel.app/)
-
-## Thank you!
-
-Hope you like it. Please do ⭐ the repo. Happy coding!

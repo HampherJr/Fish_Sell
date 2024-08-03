@@ -18,7 +18,7 @@ const Footer = () => {
               <div className="flex justify-center">
                 <Link href="/">
                   <div className="relative w-16 h-16">
-                    <Image src="/logo.png" fill alt="Digibee Logo" />
+                    <Image src="/logo.png" fill alt="FisheryXchange Logo" />
                   </div>
                 </Link>
               </div>
@@ -40,7 +40,7 @@ const Footer = () => {
                     Become a seller
                   </h3>
                   <p className="mt-2 text-sm text-muted-foreground">
-                    If you&apos;d like to sell high-quality digital products,
+                    If you&apos;d like to sell high-quality fish,
                     you can do so in minutes.{" "}
                     <Link
                       href="/sign-in?as=seller"

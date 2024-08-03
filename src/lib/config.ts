@@ -1,43 +1,43 @@
 export const PRODUCT_CATEGORIES = [
   {
-    label: "UI Kits",
-    value: "ui_kits" as const,
+    label: "Fresh Fish",
+    value: "fresh_fish" as const,
     featured: [
       {
         name: 'Editors pick',
         href: '#',
-        image: '/nav/ui-kits/mixed.jpg'
+        image: '/nav/processed_fish/mixed.jpg'
       },
       {
         name: 'New Arrivals',
         href: '#',
-        image: '/nav/ui-kits/blue.jpg'
+        image: '/nav/processed_fish/blue.jpg'
       },
       {
         name: 'Best Sellers',
         href: '#',
-        image: '/nav/ui-kits/purple.jpg'
+        image: '/nav/processed_fish/purple.jpg'
       }
     ]
   },
   {
-    label: "Icons",
-    value: "icons" as const,
+    label: "Processed Fish",
+    value: "processed_fish" as const,
     featured: [
       {
         name: 'Favorite Picks',
         href: '#',
-        image: '/nav/icons/picks.jpg'
+        image: '/nav/processed_fish/picks.jpg'
       },
       {
         name: 'New Arrivals',
         href: '#',
-        image: '/nav/icons/new.jpg'
+        image: '/nav/processed_fish/new.jpg'
       },
       {
-        name: 'Best Selling Icons',
+        name: 'Best Selling processed fish',
         href: '#',
-        image: '/nav/icons/bestsellers.jpg'
+        image: '/nav/processed_fish/bestsellers.jpg'
       }
     ]
   },

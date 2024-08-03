@@ -9,11 +9,11 @@ const nextConfig = {
         port: "3000",
       },
       {
-        hostname: "digibee.up.railway.app",
+        hostname: "FisheryXchange.up.railway.app",
         protocol: "https",
       },
       {
-        hostname: "digibee-mediafiles.s3.ap-south-1.amazonaws.com",
+        hostname: "FisheryXchange-mediafiles.s3.ap-south-1.amazonaws.com",
         protocol: "https",
       },
     ],

@@ -94,7 +94,7 @@ const Products: CollectionConfig = {
           const createdProduct = await stripe.products.create({
             name: data.name,
             default_price_data: {
-              currency: "INR",
+              currency: "MWK",
               unit_amount: Math.round(data.price * 100),
             },
           });
@@ -118,7 +118,7 @@ const Products: CollectionConfig = {
           if (currentPriceData.unit_amount !== data.price * 100) {
             const newPrice = await stripe.prices.create({
               product: data.stripeId!,
-              currency: "INR",
+              currency: "MWK",
               unit_amount: Math.round(data.price * 100),
             });
             await stripe.prices.update(currentPriceId, {
@@ -180,7 +180,7 @@ const Products: CollectionConfig = {
     },
     {
       name: "price",
-      label: "Price in INR",
+      label: "Price in MWK",
       min: 0,
       max: 1000,
       type: "number",

@@ -40,7 +40,7 @@ export const ReceiptEmail = ({
   return (
     <Html>
       <Head />
-      <Preview>Your DigiBee Receipt</Preview>
+      <Preview>Your FisheryXchange Receipt</Preview>
 
       <Body style={main}>
         <Container style={container}>
@@ -50,7 +50,7 @@ export const ReceiptEmail = ({
                 src={`${process.env.NEXT_PUBLIC_SERVER_URL}/email-sent.png`}
                 width='100'
                 height='100'
-                alt='DigiBee'
+                alt='FisheryXchange'
               />
             </Column>
 
@@ -188,7 +188,7 @@ export const ReceiptEmail = ({
             <Link href='#'>Privacy Policy </Link>
           </Text>
           <Text style={footerCopyright}>
-            Copyright © 2023 DigiBee Inc. <br />{' '}
+            Copyright © 2023 FisheryXchange Inc. <br />{' '}
             <Link href='#'>All rights reserved</Link>
           </Text>
         </Container>
